@@ -4,7 +4,7 @@ import icon from "../public/assets/icon.webp";
 
 export default function Header() {
   return (
-    <header class="text-gray-600 body-font">
+    <header class="sticky top-0 text-gray-600 body-font z-50 bg-white">
       <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <Link
           href="/"
@@ -14,13 +14,13 @@ export default function Header() {
           <Link href="/" class="mr-5 hover:text-gray-900">
             Home
           </Link>
-          <Link href="/reference" class="mr-5 hover:text-gray-900">
-            Reference
+          <Link href="/tools" class="mr-5 hover:text-gray-900">
+            Tools
           </Link>
-          <Link href="/faq" class="mr-5 hover:text-gray-900">
-            FAQ
+          <Link href="/review" class="mr-5 hover:text-gray-900">
+            Review
           </Link>
-          <Link href="/about" class="mr-5 hover:text-gray-900">
+          <Link href="/aboutus" class="mr-5 hover:text-gray-900">
             About Us
           </Link>
         </nav>

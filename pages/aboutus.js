@@ -5,13 +5,13 @@ import Footer from "../components/Footer";
 import banner from "../public/assets/banner.webp";
 import mypic from "../public/assets/ida.webp";
 
-export default function About() {
+export default function Aboutus() {
   return (
     <div>
-      <Meta title="Freshwater Fish" />
+      <Meta title="About Us" />
       <Header />
       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto flex flex-col">
+        <div class="container px-5 py-8 mx-auto flex flex-col">
           <div class="lg:w-4/6 mx-auto">
             <div class="rounded-lg h-64 overflow-hidden">
               <Image

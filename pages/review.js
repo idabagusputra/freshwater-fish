@@ -5,12 +5,12 @@ import Footer from "../components/Footer";
 export default function Faq() {
   return (
     <div>
-      <Meta title="Freshwater Fish" />
+      <Meta title="Top Review" />
       <Header />
       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-5 mx-auto">
           <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">
-            Frequently Asked Questions
+            Top Review
           </h1>
           <div class="flex flex-wrap -m-4">
             <div class="p-4 md:w-1/2 w-full">
