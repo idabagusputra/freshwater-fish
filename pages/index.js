@@ -10,6 +10,18 @@ export default function Home() {
 
       <Header />
 
+      <div class="container px-5 py-5 mx-auto">
+        <div class="text-center mb-20">
+          <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
+            Halo Ajeng
+          </h1>
+          <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">
+            Aku adalah sebuah website berisikan catalog ikan air tawar, selamat
+            menikmati!
+          </p>
+        </div>
+      </div>
+
       <List />
 
       <Footer />

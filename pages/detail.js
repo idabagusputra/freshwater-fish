@@ -17,34 +17,40 @@ export default function Home() {
   return (
     <div>
       <Meta title="Freshwater Fish: Detail" />
-
       <Header />
-
-      <section class="text-gray-600 body-font">
-        <div class="container mx-auto flex px-5 py-8 items-center justify-center flex-col">
-          <Image
-            class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
-            alt="cover"
-            width="720"
-            height="600"
-            src={data ? data.imageURL : ""}
-          />
-          <div class="text-center lg:w-2/3 w-full">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              {data ? data.name : ""}
-            </h1>
-            <p class="mb-8 leading-relaxed">
-              {`${data ? data.name : ""} taxonomy ${
-                data ? data.taxonomy : ""
-              } based in ${data ? data.about : ""}. temprange ${
-                data ? data.temprange : ""
-              }`}
-            </p>
+      <section class="text-gray-600 body-font overflow-hidden">
+        <div class="container px-5 py-8 mx-auto">
+          <div class="lg:w-3/5 mx-auto flex flex-wrap justify-center">
+            <div class="lg:w-1/3 w-full lg:pr-10 lg:py-0 mb-0 lg:mb-0">
+              <h1 class="text-gray-900 text-3xl title-font font-medium mb-4">
+                {data ? data.name : ""}
+              </h1>
+              <p class="leading-relaxed mb-4">
+                Taxonomy : {data ? data.taxonomy : ""}
+              </p>
+              <p class="leading-relaxed mb-4">
+                Temprange : {data ? data.temprange : " "}
+              </p>
+              <p class="leading-relaxed mb-4">
+                Remark : {data ? data.remarks : ""}
+              </p>
+              <p class="leading-relaxed mb-4">
+                pH Range : {data ? data.phRange : ""}
+              </p>
+              <div class="flex"></div>
+            </div>
+            <img
+              alt="ecommerce"
+              class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
+              src={data ? data.imageURL : ""}
+            />
           </div>
         </div>
+        <div class="mb-80 ..."></div>
       </section>
-
-      <Footer />
+      <div class="sticky bottom-0 text-gray-600 body-font z-50 bg-white">
+        <Footer />
+      </div>
     </div>
   );
 }
