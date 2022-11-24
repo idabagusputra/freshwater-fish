@@ -7,7 +7,8 @@ export default function ItemCard(props) {
   const [imageError, setImageError] = useState(false);
 
   return (
-    <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+    <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+      {/* <div class="bg-gray-50 p-6 rounded-lg"> */}
       <Link
         href={{
           pathname: "/detail",
@@ -32,5 +33,6 @@ export default function ItemCard(props) {
         <p class="text-base leading-relaxed mt-2">{props.data.taxonomy}</p>
       </Link>
     </div>
+    // </div>
   );
 }

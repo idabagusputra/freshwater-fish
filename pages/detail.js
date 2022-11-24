@@ -46,11 +46,9 @@ export default function Home() {
             />
           </div>
         </div>
-        <div class="mb-80 ..."></div>
+        <div class="my-80 ..."></div>
       </section>
-      <div class="sticky bottom-0 text-gray-600 body-font z-50 bg-white">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 }

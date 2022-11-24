@@ -33,7 +33,11 @@ export default function Tools() {
           <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
             <div class="p-4 md:w-1/3 flex flex-col text-justify items-center">
               <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-                <Image alt="icon" src={pic1} className="rounded-full" />
+                <Image
+                  alt="icon"
+                  src={pic1}
+                  className="rounded-full bg-white"
+                />
               </div>
               <div class="flex-grow">
                 <h2 class="text-gray-900 text-lg text-center title-font font-medium mb-3">
@@ -48,7 +52,11 @@ export default function Tools() {
             </div>
             <div class="p-4 md:w-1/3 flex flex-col text-justify items-center">
               <div class="bg-white bg-none w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-                <Image alt="icon" src={pic2} className="rounded-full" />
+                <Image
+                  alt="icon"
+                  src={pic2}
+                  className="rounded-full bg-white"
+                />
               </div>
               <div class="flex-grow">
                 <h2 class="text-gray-900 text-lg text-center title-font font-medium mb-3">
@@ -62,7 +70,11 @@ export default function Tools() {
             </div>
             <div class="p-4 md:w-1/3 flex flex-col text-justify items-center">
               <div class="bg-white w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-                <Image alt="icon" src={pic3} className="rounded-full" />
+                <Image
+                  alt="icon"
+                  src={pic3}
+                  className="rounded-full bg-white"
+                />
               </div>
               <div class="flex-grow">
                 <h2 class="bg-white text-gray-900 text-lg text-center title-font font-medium mb-3">
@@ -79,7 +91,11 @@ export default function Tools() {
             </div>
             <div class="p-4 md:w-1/3 flex flex-col text-justify items-center">
               <div class="bg-white w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-                <Image alt="icon" src={pic4} className="rounded-full" />
+                <Image
+                  alt="icon"
+                  src={pic4}
+                  className="rounded-full bg-white"
+                />
               </div>
               <div class="flex-grow">
                 <h2 class="text-gray-900 text-lg text-center title-font font-medium mb-3">
@@ -95,7 +111,11 @@ export default function Tools() {
             </div>
             <div class="p-4 md:w-1/3 flex flex-col text-justify items-center">
               <div class="bg-white w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-                <Image alt="icon" src={pic5} className="rounded-full" />
+                <Image
+                  alt="icon"
+                  src={pic5}
+                  className="rounded-full bg-white"
+                />
               </div>
               <div class="flex-grow">
                 <h2 class="text-gray-900 text-lg text-center title-font font-medium mb-3">
@@ -110,7 +130,11 @@ export default function Tools() {
             </div>
             <div class="p-4 md:w-1/3 flex flex-col text-justify items-center">
               <div class="bg-white w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 bg-none flex-shrink-0">
-                <Image alt="icon" src={pic6} className="rounded-full" />
+                <Image
+                  alt="icon"
+                  src={pic6}
+                  className="rounded-full bg-white"
+                />
               </div>
               <div class="flex-grow">
                 <h2 class="text-gray-900 text-lg text-center title-font font-medium mb-3">
