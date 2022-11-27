@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@headlessui/react", "virtual:ce725031b88993ccb5969519dc82bb13d8903778ba2b1e24690f5239601f534481b4144d8cdc349f57d1231caa555e9aadc765b9546ebd0d569a398109b6a2c5#npm:1.7.4"],\
             ["autoprefixer", "virtual:ce725031b88993ccb5969519dc82bb13d8903778ba2b1e24690f5239601f534481b4144d8cdc349f57d1231caa555e9aadc765b9546ebd0d569a398109b6a2c5#npm:10.4.13"],\
             ["eslint", "npm:8.28.0"],\
             ["eslint-config-next", "virtual:ce725031b88993ccb5969519dc82bb13d8903778ba2b1e24690f5239601f534481b4144d8cdc349f57d1231caa555e9aadc765b9546ebd0d569a398109b6a2c5#npm:13.0.4"],\
@@ -2235,6 +2236,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@gar-promisify-npm-1.1.3-ac1a325862-4059f790e2.zip/node_modules/@gar/promisify/",\
           "packageDependencies": [\
             ["@gar/promisify", "npm:1.1.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@headlessui/react", [\
+        ["npm:1.7.4", {\
+          "packageLocation": "./.yarn/cache/@headlessui-react-npm-1.7.4-73af72235e-cd7192aa07.zip/node_modules/@headlessui/react/",\
+          "packageDependencies": [\
+            ["@headlessui/react", "npm:1.7.4"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:ce725031b88993ccb5969519dc82bb13d8903778ba2b1e24690f5239601f534481b4144d8cdc349f57d1231caa555e9aadc765b9546ebd0d569a398109b6a2c5#npm:1.7.4", {\
+          "packageLocation": "./.yarn/__virtual__/@headlessui-react-virtual-79afa116dc/0/cache/@headlessui-react-npm-1.7.4-73af72235e-cd7192aa07.zip/node_modules/@headlessui/react/",\
+          "packageDependencies": [\
+            ["@headlessui/react", "virtual:ce725031b88993ccb5969519dc82bb13d8903778ba2b1e24690f5239601f534481b4144d8cdc349f57d1231caa555e9aadc765b9546ebd0d569a398109b6a2c5#npm:1.7.4"],\
+            ["@types/react", null],\
+            ["@types/react-dom", null],\
+            ["client-only", "npm:0.0.1"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:ce725031b88993ccb5969519dc82bb13d8903778ba2b1e24690f5239601f534481b4144d8cdc349f57d1231caa555e9aadc765b9546ebd0d569a398109b6a2c5#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4660,6 +4688,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["freshwater-fish", "workspace:."],\
+            ["@headlessui/react", "virtual:ce725031b88993ccb5969519dc82bb13d8903778ba2b1e24690f5239601f534481b4144d8cdc349f57d1231caa555e9aadc765b9546ebd0d569a398109b6a2c5#npm:1.7.4"],\
             ["autoprefixer", "virtual:ce725031b88993ccb5969519dc82bb13d8903778ba2b1e24690f5239601f534481b4144d8cdc349f57d1231caa555e9aadc765b9546ebd0d569a398109b6a2c5#npm:10.4.13"],\
             ["eslint", "npm:8.28.0"],\
             ["eslint-config-next", "virtual:ce725031b88993ccb5969519dc82bb13d8903778ba2b1e24690f5239601f534481b4144d8cdc349f57d1231caa555e9aadc765b9546ebd0d569a398109b6a2c5#npm:13.0.4"],\

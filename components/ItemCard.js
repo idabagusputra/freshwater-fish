@@ -7,8 +7,7 @@ export default function ItemCard(props) {
   const [imageError, setImageError] = useState(false);
 
   return (
-    <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
-      {/* <div class="bg-gray-50 p-6 rounded-lg"> */}
+    <div className="p-4 md:w-1/4 w-full">
       <Link
         href={{
           pathname: "/detail",
@@ -17,22 +16,25 @@ export default function ItemCard(props) {
           },
         }}
       >
-        <div class="rounded-lg h-64 overflow-hidden">
+        <div className="h-full bg-white rounded-lg overflow-hidden drop-shadow-md">
           <Image
-            alt="content"
-            class="object-cover object-center h-full w-full"
-            width="1203"
-            height="503"
+            className="lg:h-48 md:h-36 w-full object-cover object-center"
             src={imageError ? placeholder : props.data.imageURL}
             onError={() => setImageError(true)}
+            alt="thumbnail"
+            width="720"
+            height="400"
           />
+          <div className="p-6">
+            <h2 className="tracking-widest text-xs title-font font-bold text-emerald-400 mb-1">
+              {props.data.taxonomy}
+            </h2>
+            <h1 className="title-font text-lg font-medium text-gray-900">
+              {props.data.name}
+            </h1>
+          </div>
         </div>
-        <h2 class="text-xl font-medium title-font text-gray-900 mt-5">
-          {props.data.name}
-        </h2>
-        <p class="text-base leading-relaxed mt-2">{props.data.taxonomy}</p>
       </Link>
     </div>
-    // </div>
   );
 }
