@@ -63,20 +63,6 @@ export default function Aboutus() {
                   in recent decades. And since 1900, at least 57 species of
                   freshwater fish in North America have gone extinct.
                 </p>
-                <a className="text-emerald-500 inline-flex items-center">
-                  Learn More
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
               </div>
             </div>
           </div>
